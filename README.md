@@ -1,5 +1,11 @@
-# Termux-Client-Server-Architecture-for-Sensor-Data-Collection
-Este projeto propõe uma arquitetura cliente-servidor utilizando o aplicativo Termux em dispositivos Android para coleta e envio de dados sensoriais. O cliente, baseado em shell scripts, coleta informações do acelerômetro, sensor de luz e localização, e realiza uploads automáticos para um servidor remoto (Google Drive).
+Termux Client-Server Architecture for Sensor Data Collection
+
+✨ Resumo
+
+Este projeto propõe uma arquitetura cliente-servidor utilizando o aplicativo Termux em dispositivos Android para coleta e envio de dados sensoriais. O cliente, baseado em shell scripts, coleta informações do acelerômetro, sensor de luz e localização, e realiza uploads automáticos para um servidor remoto (Google Drive). A solução é leve, portátil e aplicável a contextos de monitoramento ambiental, pesquisa em campo e sistemas de Internet das Coisas (IoT).
+
+
+---
 
 ⚙️ Objetivos
 
@@ -17,14 +23,14 @@ Criar um sistema de monitoramento portátil e de baixo custo
 
 📊 Tecnologias utilizadas
 
-Tecnologia	Função
+Tecnologia	          Função
 
-Termux	Terminal Linux no Android
-Shell Script	Scripts de automação
-termux-sensor	Leitura de sensores
-termux-location	Acesso à localização GPS/rede
-rclone	Upload para Google Drive
-Google Drive	Armazenamento remoto
+Termux	          Terminal Linux no Android
+Shell Script	    Scripts de automação
+termux-sensor	    Leitura de sensores
+termux-location	    Acesso à     localização GPS/rede
+rclone	          Upload para Google Drive
+Google Drive	   Armazenamento remoto
 (Opcional) Termux:Boot	Execução automática ao ligar o dispositivo
 
 
@@ -154,4 +160,7 @@ rclone copy "$ARQUIVO" sensores2:sensores_termux
 
 ---
 
-> Criado por André Luiz Cunha, 2025
+> Criado por André Luiz Cunha, 2025.
+
+
+
